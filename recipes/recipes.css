@@ -1,6 +1,11 @@
 body {
     background-color: azure;
     color: black;
+}
+
+h1,
+h2,
+h3 {
     text-transform: uppercase;
 }
 
@@ -12,9 +17,6 @@ div.ingredients {
 img#beef{
     height: 250px;
     width: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 img#scallops,
@@ -27,7 +29,7 @@ div.steps {
     width: 900px;
     height: auto;
     display: inline-block;
-    float: right;
-    margin-block-start: -800px;
-    margin-inline-end: 100px;
+    margin-block-start: -600px;
+    margin-inline-start: 600px;
+    position: absolute;
 }
