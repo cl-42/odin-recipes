@@ -8,3 +8,11 @@ div.desc,
 div.ingredients {
     width: 500px;
 }
+
+div.steps {
+    width: 800px;
+    height: auto;
+    display: inline-block;
+    float: right;
+    margin-block-start: -900px;
+}
