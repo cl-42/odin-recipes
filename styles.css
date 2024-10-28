@@ -1,13 +1,25 @@
-* {
+body {
     text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(10, 10, 10, 0.888);
+}
+
+h1 {
+    color: azure;
 }
 
 ul {
     list-style: none;
+    box-sizing: border-box;
 }
 
 li {
     display: inline-block;
-    margin-inline-start: 50px;
-    margin-inline-end: 50px;
+    margin-inline-start: 150px;
+    margin-inline-end: 150px;
+    margin-block-start: 200px;
+}
+
+a {
+    text-decoration: none;
 }
