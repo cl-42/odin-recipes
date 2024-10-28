@@ -1,6 +1,6 @@
 body {
-    background-color: firebrick;
-    color: azure;
+    background-color: azure;
+    color: black;
     text-transform: uppercase;
 }
 
@@ -9,11 +9,25 @@ div.ingredients {
     width: 500px;
 }
 
+img#beef{
+    height: 250px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img#scallops,
+img#pudding {
+    height: 200px;
+    width: auto;
+}
+
 div.steps {
     width: 900px;
     height: auto;
     display: inline-block;
     float: right;
-    margin-block-start: -600px;
+    margin-block-start: -800px;
     margin-inline-end: 100px;
 }

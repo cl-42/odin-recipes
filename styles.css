@@ -1,8 +1,8 @@
 body {
     text-align: center;
     text-transform: uppercase;
-    background-color: firebrick;
-    color: azure;
+    background-color: azure;
+    color: black;
 }
 
 ul {
@@ -10,8 +10,10 @@ ul {
 }
 
 li {
-    text-align: center;
     font-weight: 700;
+    box-sizing: border-box;
+    border: 10px solid black;
+    width: auto;
 }
 
 
@@ -23,9 +25,4 @@ p.Description {
     text-transform: lowercase;
     font-size: smaller;
     font-weight: normal;
-}
-
-li {
-    box-sizing: border-box;
-    border: 10px solid black;
 }
