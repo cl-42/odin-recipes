@@ -10,10 +10,7 @@ ul {
 }
 
 li {
-    display: inline-block;
-    margin-inline-start: 200px;
-    margin-inline-end: 200px;
-    margin-block-start: 100px;
+    text-align: center;
     font-weight: 700;
 }
 

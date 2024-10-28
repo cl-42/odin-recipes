@@ -1,0 +1,24 @@
+body {
+    background-color: firebrick;
+    color: azure;
+    text-transform: ;
+}
+
+p {
+    width: 500px;
+    overflow-wrap: normal;
+}
+
+ul {
+    width: 500px;
+    overflow-wrap: normal;
+}
+
+ol {
+    box-sizing: border-box;
+    width: 900px;
+    height: auto;
+    float: right;
+    display: inline-block;
+    margin-block-start: -900px;
+}
