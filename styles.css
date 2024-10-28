@@ -1,25 +1,32 @@
 body {
     text-align: center;
     text-transform: uppercase;
-    background-color: rgba(10, 10, 10, 0.888);
-}
-
-h1 {
+    background-color: firebrick;
     color: azure;
 }
 
 ul {
     list-style: none;
-    box-sizing: border-box;
 }
 
 li {
     display: inline-block;
-    margin-inline-start: 150px;
-    margin-inline-end: 150px;
-    margin-block-start: 200px;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+    margin-block-start: 100px;
 }
 
-a {
-    text-decoration: none;
+
+ul img {
+    height: 175px;
+}
+
+p.Description {
+    text-transform: lowercase;
+    font-size: smaller;
+}
+
+li {
+    box-sizing: border-box;
+    border: 10px solid black;
 }
