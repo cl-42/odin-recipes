@@ -14,6 +14,7 @@ li {
     margin-inline-start: 200px;
     margin-inline-end: 200px;
     margin-block-start: 100px;
+    font-weight: 700;
 }
 
 
@@ -24,6 +25,7 @@ ul img {
 p.Description {
     text-transform: lowercase;
     font-size: smaller;
+    font-weight: normal;
 }
 
 li {
