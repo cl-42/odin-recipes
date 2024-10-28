@@ -2,19 +2,20 @@ body {
     text-align: center;
     text-transform: uppercase;
     background-color: azure;
-    color: bla;
+    color: black;
 }
 
 ul {
     list-style: none;
+    padding-left: 0;
 }
 
 li {
     font-weight: 700;
     box-sizing: border-box;
-    width: auto;
+    width: 500px;
+    display: inline-block;
 }
-
 
 ul img {
     height: 175px;
