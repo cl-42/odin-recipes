@@ -14,11 +14,18 @@ ul {
     overflow-wrap: normal;
 }
 
+h2.steps {
+    box-sizing: border-box;
+    float: right;
+    display: inline-block;
+    margin-block-start: -550px;
+}
+
 ol {
     box-sizing: border-box;
     width: 900px;
     height: auto;
     float: right;
     display: inline-block;
-    margin-block-start: -900px;
+    margin-block-start: -500px;
 }
