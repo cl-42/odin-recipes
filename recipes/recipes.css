@@ -1,31 +1,10 @@
 body {
     background-color: firebrick;
     color: azure;
-    text-transform: ;
+    text-transform: uppercase;
 }
 
-p {
+div.desc,
+div.ingredients {
     width: 500px;
-    overflow-wrap: normal;
-}
-
-ul {
-    width: 500px;
-    overflow-wrap: normal;
-}
-
-h2.steps {
-    box-sizing: border-box;
-    float: right;
-    display: inline-block;
-    margin-block-start: -550px;
-}
-
-ol {
-    box-sizing: border-box;
-    width: 900px;
-    height: auto;
-    float: right;
-    display: inline-block;
-    margin-block-start: -500px;
 }
