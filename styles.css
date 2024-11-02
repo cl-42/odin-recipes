@@ -1,3 +1,4 @@
+/* index.html */
 body {
     text-align: center;
     text-transform: uppercase;
@@ -14,9 +15,7 @@ li {
     font-weight: 700;
     box-sizing: border-box;
     width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
     background-color: bisque;
 }
 
@@ -28,4 +27,5 @@ p.Description {
     text-transform: lowercase;
     font-size: smaller;
     font-weight: normal;
+    margin-bottom: 10px;
 }
