@@ -1,4 +1,8 @@
 /* index.html */
+* {
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
     text-transform: uppercase;
