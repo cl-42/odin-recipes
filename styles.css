@@ -17,9 +17,10 @@ ul {
 
 li {
     font-weight: 700;
-    box-sizing: border-box;
     width: 500px;
-    display: inline-block;
+    margin: 10px auto;
+    padding: 5px;
+    display: block;
     background-color: bisque;
 }
 
