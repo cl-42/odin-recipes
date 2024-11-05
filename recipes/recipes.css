@@ -1,4 +1,8 @@
 /* recipes.html */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: azure;
     color: black;
@@ -29,8 +33,14 @@ img#pudding {
 div.steps {
     width: 900px;
     height: auto;
+}
+
+.container {
     display: inline-block;
-    margin-block-start: -600px;
-    margin-inline-start: 600px;
-    position: absolute;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.section {
+    display: inline-block;
 }
