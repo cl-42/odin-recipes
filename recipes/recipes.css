@@ -14,20 +14,27 @@ h3 {
     text-transform: uppercase;
 }
 
+h1 {
+    text-align: center;
+}
+
 div.desc,
 div.ingredients {
     width: 500px;
 }
 
 img#beef{
-    height: 250px;
-    width: auto;
+    display: block;
+    height: auto;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 img#scallops,
 img#pudding {
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 100%;
 }
 
 div.steps {
