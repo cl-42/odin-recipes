@@ -33,4 +33,5 @@ p.Description {
     font-size: smaller;
     font-weight: normal;
     margin-bottom: 10px;
+    margin-top: -10px;
 }
